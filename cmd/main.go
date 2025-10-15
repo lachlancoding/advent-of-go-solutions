@@ -23,7 +23,7 @@ func main() {
 	}
 
 	// Create solution key for module path
-	solutionKey := fmt.Sprintf("%s/%s/%s", envVars["YEAR"], envVars["DAY"], envVars["PART"])
+	solutionKey := fmt.Sprintf("%s/day%s/part%s", envVars["YEAR"], envVars["DAY"], envVars["PART"])
 	log.Printf("Looking for solution module: %s", solutionKey)
 
 	// Read from input file
